@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/rounded_bottom_sheet"
+    android:orientation="vertical"
+    android:paddingHorizontal="16dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="50dp"
+        android:layout_height="4dp"
+        app:cardBackgroundColor="#D7D5D5"
+        app:cardCornerRadius="4dp"
+        app:cardElevation="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_marginTop="30dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_time_taken"
+                android:textSize="16sp"
+                android:textColor="@color/primary_color"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_was_presented"
+                android:textSize="16sp"
+                android:textColor="@color/primary_color"
+                android:layout_marginTop="2dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_accepted"
+                android:textSize="16sp"
+                android:textColor="@color/primary_color"
+                android:layout_marginTop="2dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_status"
+                android:textSize="16sp"
+                android:textColor="@color/primary_color"
+                android:layout_marginTop="2dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tv_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="27.03.2025"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/primary_color" />
+
+            <TextView
+                android:id="@+id/tv_score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="2.7 ball"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/primary_color"
+                android:layout_marginTop="2dp"/>
+            <TextView
+                android:id="@+id/tv_accepted"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Rahmatov Sanjarbek"
+                android:textSize="16sp"
+                android:textColor="@color/primary_color"
+                android:textStyle="bold"
+                android:layout_marginTop="2dp"/>
+
+            <TextView
+                android:id="@+id/tv_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Muvaffaqqiyatli"
+                android:textSize="16sp"
+                android:textColor="@color/color_green"
+                android:textStyle="bold"
+                android:layout_marginTop="2dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="30dp"
+        app:cardCornerRadius="16dp"
+        app:cardBackgroundColor="@color/screen_color"
+        app:strokeColor="@color/primary_color"
+        app:strokeWidth="1dp"
+        android:layout_marginBottom="30dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_product_status"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/primary_color"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"/>
+        <TextView
+            android:id="@+id/tv_product_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="@string/txt_product_status"
+            android:layout_marginHorizontal="16dp"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:textColor="@color/primary_color"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:maxLines="3"/>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>

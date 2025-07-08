@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Baraka</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="txt_first_splash_screen">Chiqindilar bilan ona tabiatni nobut qilmang. Buning o\'rniga ularni qayta ishlang!</string>
+    <string name="txt_second_splash_screen">Qayta ishlangan chiqindi ya\'ni meniral o\'g\'it evaziga ballarni qo\'lga kriting!</string>
+    <string name="txt_third_splash_screen">Sizga taqdim etilgan ballarni pul mablag\'iga osongina aylantiring!</string>
+    <string name="txt_next">Kengisi</string>
+    <string name="txt_previous">Orqaga</string>
+    <string name="txt_sign_in">Kirish</string>
+    <string name="txt_application_name">Baraka</string>
+    <string name="txt_user_id">Foydalanuvchi ID</string>
+    <string name="txt_user_password">Parol</string>
+    <string name="txt_hello">Salom,</string>
+    <string name="txt_user_name">Sanjarbek</string>
+    <string name="txt_score">ball</string>
+    <string name="txt_more">Batafsil</string>
+    <string name="txt_was_presented">Taqdim etildi: </string>
+    <string name="txt_log_out">Chiqish</string>
+    <string name="txt_select_img">Rasm tanlash</string>
+    <string name="txt_all_calculated">Jami hisoblangan</string>
+    <string name="txt_score_to_money">Ballarni pulga aylantirish</string>
+    <string name="txt_time_taken">Vaqt:</string>
+    <string name="txt_accepted">Qabul qildi:</string>
+    <string name="txt_status">Status:</string>
+    <string name="txt_product_status">Mahsulot holati</string>
+    <string name="txt_no">Yo\'q</string>
+    <string name="txt_yes">Ha</string>
+    <string name="txt_my_score">Mening ballarim</string>
+    <string name="txt_my_profile">Mening hisobim</string>
+    <string name="txt_email">Email</string>
+    <string name="txt_age">Yosh:</string>
+    <string name="txt_address">Manzil:</string>
+    <string name="txt_all_score">Jami ball:</string>
+    <string name="txt_upload_language">Til almashtirish</string>
+    <string name="txt_select_language">Til tanlash</string>
+    <string name="txt_app_them">Dasur mavzusi</string>
+    <string name="txt_app_info">Dastur haqida</string>
+    <string name="txt_phone">Tel:</string>
+    <string name="txt_gender">Jins:</string>
+</resources>
